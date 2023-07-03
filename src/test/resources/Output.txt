@@ -1,0 +1,36 @@
+On Running TestClass1.java
+
+Area of Square : 10 (Default Priority 0 as A comes before C thats why running first)
+Cube of a Number : 27
+Square of a Number : 16 (Set priority as 2)
+
+===============================================
+Default Suite
+Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+===============================================
+
+On Running TestClass 2
+
+This is Before Suite (Before Suite)
+This is Test Case 1
+This is Test Case 3(priority 1)
+This is Test Case 2(priority 3)
+
+===============================================
+Default Suite
+Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+===============================================
+
+On Running testng.xml
+All the test Cases set as Group A
+
+Area of Square : 10
+Cube of a Number : 27
+This is Test Case 1
+
+===============================================
+Test-Suite
+Total tests run: 3, Passes: 3, Failures: 0, Skips: 0
+===============================================
+
+
